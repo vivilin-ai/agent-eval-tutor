@@ -1,47 +1,70 @@
 # Agent Eval Tutor
 
-面向 Codex、Claude Code、Workbuddy 的 Agent 评测顾问 Skill。使用本地资料检索，支持多轮，同一议题累计最多三个澄清问题，无资料依据时明确承认找不到。
+一个帮助你开展 Agent 评测的顾问 Skill，面向 Codex、Claude Code 和 Workbuddy。无论你刚开始搭建评测，还是已经有评测集、正在排查效果问题，都可以用它讨论下一步怎么做。
 
-**当前状态：已收录 109 个知识文档（包括 Hamel FAQ(https://hamel.dev/blog/posts/evals-faq/)以及阿里技术公众号）；三个宿主尚未实测，Workbuddy 安装路径及自动触发能力待核实。**
+## 它能帮你做什么？
 
-## 文件与依赖
+- 梳理评测目标，明确什么算任务成功。
+- 从真实案例出发开展错误分析，建立和改进评测集。
+- 设计人工标注标准，检查 LLM judge 是否可信。
+- 评估检索、工具调用和执行过程，定位失败环节。
+- 讨论回归评测、多轮对话评测和上线验收方法。
 
-`skills/agent-eval-tutor/` 是可整体复制的 Skill 包：`SKILL.md` 为入口，`references/coverage.json` 为覆盖清单，`references/documents/` 为知识正文，`scripts/kb.py` 为检索/更新工具。离线检索仅需 Python 3.10+ 标准库，无 API key，无第三方 Python 依赖。更新需要 HTTPS 来源访问；PDF 提取另需 Poppler 的 `pdftotext`，当前环境已安装。第三方正文的权利归原作者，分发前检查各来源许可；不要将外部文章视为本项目原创。
+Skill 会根据你的问题检索知识库，并引用支持建议的来源。需要了解背景时，同一议题累计最多提出 **3 个澄清问题**；你可以在同一会话中继续追问，它会沿用已经提供的信息。
 
-## 使用
+如果知识库没有相应依据，它会明确说明找不到，不编造方法、指标或上线阈值。
 
-在项目根目录执行：
+## 知识库来自哪里？
 
-```bash
-python3 -m unittest discover -s tests -v
-python3 skills/agent-eval-tutor/scripts/kb.py status
-python3 skills/agent-eval-tutor/scripts/kb.py search '错误分析 error analysis'
-python3 skills/agent-eval-tutor/scripts/kb.py crawl --max-pages 250
-```
+知识库目前收录 109 篇资料，主要来自两组来源：
 
-后续可用 `import-text --file <UTF-8文本文件> --url <原始HTTPS链接> --title <内容标签> --note <缺失或未核验信息>` 导入资料；重复导入同一文本不会重复收录，抓取更新会保留手工导入来源。
+1. **[Hamel Husain 的 Evals FAQ](https://hamel.dev/blog/posts/evals-faq/)**，以及该页面链接的评测文章、论文和相关资料，涵盖错误分析、评测集、人工标注、LLM judge 等主题。
+2. **[阿里技术公众号的 Agent 精细化评测文章](https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247511370&idx=1&sn=c9f4ff1d054cb229ac2f8c1462fcb05e)**，涵盖任务与模块评测、质量与成本、多轮对话及工程实践。该来源通过用户提供的正文收录，未包含图片中的信息。
 
-## 三个平台
+部分外部链接尚未收录，因此知识库并非完整覆盖所有来源。你可以查看[资料目录](skills/agent-eval-tutor/references/catalog.md)。第三方资料的权利归原作者所有。
 
-以下是通用 Skill 包的部署指引，不代表已在这三个宿主上做过运行验证。
+## 如何安装？
 
-- **Codex**：将整个 `agent-eval-tutor` 文件夹放入项目 `.agents/skills/` 或个人 `~/.agents/skills/`。可显式调用 `$agent-eval-tutor`；是否自动选中取决于宿主加载和描述匹配。
-- **Claude Code**：将整个文件夹放入项目 `.claude/skills/` 或个人 `~/.claude/skills/`。可显式调用 `/agent-eval-tutor`。需允许读取本地资料与运行 Python。
-- **Workbuddy**：先使用该版本的本地 Skill 导入功能选择整个文件夹（如果支持）。安装路径、压缩包格式和触发方式需依据其当前官方文档确认；本项目不猜测路径。若只支持提示词而无法读文件/执行脚本，此包不能实现知识库功能。
+先[下载 Skill 压缩包](https://github.com/vivilin-ai/agent-eval-tutor/raw/refs/heads/main/dist/agent-eval-tutor.zip)，解压得到 `agent-eval-tutor` 文件夹。请保留整个文件夹，不要只复制 `SKILL.md`。
 
-不必同时安装到用户级和项目级，以免加载重复版本。各平台在当前会话维护问题计数；跨会话需由用户提供前情，不宣称持久记忆。
+也可以从本仓库复制 `skills/agent-eval-tutor` 文件夹。
 
-## 完成知识库的步骤
+### Codex
 
-1. 对剩余失败来源运行 `crawl --retry-failed --exclude-domain mp.weixin.qq.com --max-pages 250` 重试（保留已成功的正文和手动导入文本）。
-2. 审查覆盖清单：确认 FAQ、微信正文确实存在，直接链接逐项已收录或解释排除；给正文与 URL 抽样核验。
-3. 检查文章抽取质量和中文/英文问题的检索召回。
-4. 在每个宿主运行 `references/dialogue-checks.md` 中的对话用例。单元测试验证检索工具，不验证模型是否遵守三问规则。
+把文件夹放到以下任一位置：
 
-源码与可下载的 Skill 压缩包在本仓库中维护。
+- 当前项目使用：`.agents/skills/agent-eval-tutor/`
+- 所有项目使用：`~/.agents/skills/agent-eval-tutor/`
 
-来源完整清单在 `references/coverage.json`，可读目录在 `references/catalog.md`。下载包由整个 Skill 文件夹与说明组成，不含 Git 元数据或临时测试资料。
+重新打开会话后，输入 `$agent-eval-tutor` 并附上你的问题。
 
-本轮补抓取的详细结果与仍缺失的链接见 [抓取报告](skills/agent-eval-tutor/references/fetch-report.md)。
+### Claude Code
 
-微信正文导入后的验收说明见 [导入记录](skills/agent-eval-tutor/references/wechat-import.md)。
+把文件夹放到以下任一位置：
+
+- 当前项目使用：`.claude/skills/agent-eval-tutor/`
+- 所有项目使用：`~/.claude/skills/agent-eval-tutor/`
+
+重新打开会话后，输入 `/agent-eval-tutor` 并附上你的问题。
+
+### Workbuddy
+
+如果你的版本支持导入本地 Skill，在 Skill 管理或导入入口选择解压后的 `agent-eval-tutor` 文件夹，启用后在对话中请求使用它回答评测问题。具体入口和支持格式以当前版本为准；Workbuddy 的安装与调用方式尚未实测。
+
+使用时需要宿主能够读取 Skill 中的资料，并运行 Python 3.10 或更新版本。知识库随包提供，日常使用无需单独配置知识库服务或 API key。三个平台的实际运行效果仍需在你的环境中验证。
+
+## 如何使用？
+
+安装后，直接描述你的 Agent、当前进展和想解决的问题。例如：
+
+> 使用 agent-eval-tutor。我们正在做一个内部客服 Agent，目前还没有评测集，应该从哪里开始？
+
+> 我们已有 200 条人工标注样本，但 LLM judge 经常和人工判断不一致，应该先排查什么？
+
+> Agent 会检索知识库和调用业务工具。我们现在只看任务是否完成，怎样进一步定位过程中出了什么问题？
+
+你不必一次提供全部背景。Skill 会在必要时提出澄清问题，再给出有来源的建议。后续可以继续追问：
+
+> 我们现在只有两个人，每周能投入半天。按照这个条件，第一周应该先做哪些工作？
+
+自动调用是否生效取决于宿主的 Skill 加载机制；如果没有触发，请显式指定 `agent-eval-tutor`。开启新会话时，请补充此前的进展和结论。
