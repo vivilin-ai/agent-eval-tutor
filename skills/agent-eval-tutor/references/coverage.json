@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T00:53:29.975524+00:00",
+  "updated_at": "2026-10-09T04:32:29.256959+00:00",
   "scope": "FAQ direct substantive links; relevant Hamel evaluation articles one further hop; external links not recursively expanded. Unavailable pages are not evidence.",
   "sources": [
     {
@@ -1148,11 +1148,11 @@
       "canonical_media_url": "https://www.youtube.com/watch?v=aqKUwPKBkB0",
       "required_content": "official captions or verified publisher transcript; video metadata alone is not evidence",
       "last_retry": {
-        "attempted_at": "2026-10-09T00:53:29.975440+00:00",
+        "attempted_at": "2026-10-09T04:32:29.256508+00:00",
         "tool": "Agent Reach v1.5.0",
-        "backend": "yt-dlp 2026.08.19",
         "status": "failed",
-        "reason": "Managed proxy CONNECT 403; no source content retrieved."
+        "backend": "yt-dlp + Jina Reader",
+        "reason": "yt-dlp CONNECT 403; Jina watch page lacks caption transcript or returns traffic challenge."
       }
     },
     {
@@ -1166,11 +1166,11 @@
       "canonical_media_url": "https://www.youtube.com/watch?v=qH1dZ8JLLdU",
       "required_content": "official captions or verified publisher transcript; video metadata alone is not evidence",
       "last_retry": {
-        "attempted_at": "2026-10-09T00:53:29.975440+00:00",
+        "attempted_at": "2026-10-09T04:32:29.256508+00:00",
         "tool": "Agent Reach v1.5.0",
-        "backend": "yt-dlp 2026.08.19",
         "status": "failed",
-        "reason": "Managed proxy CONNECT 403; no source content retrieved."
+        "backend": "yt-dlp + Jina Reader",
+        "reason": "yt-dlp CONNECT 403; Jina watch page lacks caption transcript or returns traffic challenge."
       }
     },
     {
@@ -1210,11 +1210,11 @@
       "canonical_media_url": "https://www.youtube.com/watch?v=4dUFIRj-BWo",
       "required_content": "official captions or verified publisher transcript; video metadata alone is not evidence",
       "last_retry": {
-        "attempted_at": "2026-10-09T00:53:29.975440+00:00",
+        "attempted_at": "2026-10-09T04:32:29.256508+00:00",
         "tool": "Agent Reach v1.5.0",
-        "backend": "yt-dlp 2026.08.19",
         "status": "failed",
-        "reason": "Managed proxy CONNECT 403; no source content retrieved."
+        "backend": "yt-dlp + Jina Reader",
+        "reason": "yt-dlp CONNECT 403; Jina watch page lacks caption transcript or returns traffic challenge."
       }
     },
     {
@@ -1228,11 +1228,11 @@
       "canonical_media_url": "https://www.youtube.com/watch?v=EEw2PpL-_NM",
       "required_content": "official captions or verified publisher transcript; video metadata alone is not evidence",
       "last_retry": {
-        "attempted_at": "2026-10-09T00:53:29.975440+00:00",
+        "attempted_at": "2026-10-09T04:32:29.256508+00:00",
         "tool": "Agent Reach v1.5.0",
-        "backend": "yt-dlp 2026.08.19",
         "status": "failed",
-        "reason": "Managed proxy CONNECT 403; no source content retrieved."
+        "backend": "yt-dlp + Jina Reader",
+        "reason": "yt-dlp CONNECT 403; Jina watch page lacks caption transcript or returns traffic challenge."
       }
     },
     {
@@ -1258,11 +1258,11 @@
       "canonical_media_url": "https://www.youtube.com/watch?v=e2i6JbU2R-s",
       "required_content": "official captions or verified publisher transcript; video metadata alone is not evidence",
       "last_retry": {
-        "attempted_at": "2026-10-09T00:53:29.975440+00:00",
+        "attempted_at": "2026-10-09T04:32:29.256508+00:00",
         "tool": "Agent Reach v1.5.0",
-        "backend": "yt-dlp 2026.08.19",
         "status": "failed",
-        "reason": "Managed proxy CONNECT 403; no source content retrieved."
+        "backend": "yt-dlp + Jina Reader",
+        "reason": "yt-dlp CONNECT 403; Jina watch page lacks caption transcript or returns traffic challenge."
       }
     },
     {
@@ -1284,11 +1284,11 @@
       "canonical_media_url": "https://www.youtube.com/watch?v=BsWxPI9UM4c",
       "required_content": "official captions or verified publisher transcript; video metadata alone is not evidence",
       "last_retry": {
-        "attempted_at": "2026-10-09T00:53:29.975440+00:00",
+        "attempted_at": "2026-10-09T04:32:29.256508+00:00",
         "tool": "Agent Reach v1.5.0",
-        "backend": "yt-dlp 2026.08.19",
         "status": "failed",
-        "reason": "Managed proxy CONNECT 403; no source content retrieved."
+        "backend": "yt-dlp + Jina Reader",
+        "reason": "yt-dlp CONNECT 403; Jina watch page lacks caption transcript or returns traffic challenge."
       }
     },
     {
@@ -1338,11 +1338,11 @@
       "canonical_media_url": "https://www.youtube.com/watch?v=tqUDjc1HzO4",
       "required_content": "official captions or verified publisher transcript; video metadata alone is not evidence",
       "last_retry": {
-        "attempted_at": "2026-10-09T00:53:29.975440+00:00",
+        "attempted_at": "2026-10-09T04:32:29.256508+00:00",
         "tool": "Agent Reach v1.5.0",
-        "backend": "yt-dlp 2026.08.19",
         "status": "failed",
-        "reason": "Managed proxy CONNECT 403; no source content retrieved."
+        "backend": "yt-dlp + Jina Reader",
+        "reason": "yt-dlp CONNECT 403; Jina watch page lacks caption transcript or returns traffic challenge."
       }
     },
     {
@@ -1410,11 +1410,11 @@
       "canonical_media_url": "https://www.youtube.com/watch?v=fA4pe9bE0LY",
       "required_content": "official captions or verified publisher transcript; video metadata alone is not evidence",
       "last_retry": {
-        "attempted_at": "2026-10-09T00:53:29.975440+00:00",
+        "attempted_at": "2026-10-09T04:32:29.256508+00:00",
         "tool": "Agent Reach v1.5.0",
-        "backend": "yt-dlp 2026.08.19",
         "status": "failed",
-        "reason": "Managed proxy CONNECT 403; no source content retrieved."
+        "backend": "yt-dlp + Jina Reader",
+        "reason": "yt-dlp CONNECT 403; Jina watch page lacks caption transcript or returns traffic challenge."
       }
     },
     {
@@ -1453,27 +1453,39 @@
       "canonical_media_url": "https://www.youtube.com/watch?v=N-qAOv_PNPc",
       "required_content": "official captions or verified publisher transcript; video metadata alone is not evidence",
       "last_retry": {
-        "attempted_at": "2026-10-09T00:53:29.975440+00:00",
+        "attempted_at": "2026-10-09T04:32:29.256508+00:00",
         "tool": "Agent Reach v1.5.0",
-        "backend": "yt-dlp 2026.08.19",
         "status": "failed",
-        "reason": "Managed proxy CONNECT 403; no source content retrieved."
+        "backend": "yt-dlp + Jina Reader",
+        "reason": "yt-dlp CONNECT 403; Jina watch page lacks caption transcript or returns traffic challenge."
       }
     },
     {
       "url": "https://pashpashpash.substack.com/p/why-i-no-longer-recommend-rag-for",
-      "title": "https://pashpashpash.substack.com/p/why-i-no-longer-recommend-rag-for",
+      "title": "Why I No Longer Recommend RAG for Autonomous Coding Agents",
       "depth": 1,
-      "status": "failed",
-      "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "status": "available",
       "attempted_at": "2026-10-08T14:44:30.470464+00:00",
       "last_retry": {
-        "attempted_at": "2026-10-09T00:53:29.975440+00:00",
+        "attempted_at": "2026-10-09T04:32:29.256508+00:00",
         "tool": "Agent Reach v1.5.0",
-        "backend": "Jina Reader",
-        "status": "failed",
-        "reason": "Managed proxy CONNECT 403; no source content retrieved."
-      }
+        "status": "available",
+        "backend": "Jina Reader"
+      },
+      "file": "references/documents/f371b181e8d073df.md",
+      "source_format": "jina_reader_article",
+      "resolved_url": "https://pashpashpash.substack.com/p/why-i-no-longer-recommend-rag-for",
+      "reader_url": "https://r.jina.ai/https://pashpashpash.substack.com/p/why-i-no-longer-recommend-rag-for",
+      "retrieved_at": "2026-10-09T04:32:29.256508+00:00",
+      "published_at": "2025-05-23T19:40:38+00:00",
+      "sha256": "e18a1d13213769036285eb52c488535e331352220922f033c236f916a3fce9a4",
+      "text_sha256": "6b8b1b9181b66ef213cd2d982d26bfa787e25b1d78d539f20e574266fa213f7f",
+      "raw_file": "references/documents/f371b181e8d073df.txt",
+      "evidence_scope": "Article text; author opinion about autonomous coding agents.",
+      "limitations": [
+        "Retrieved through Jina Reader; embedded image not inspected.",
+        "Author advocacy and anecdotal claims, not independent comparative evaluation. Do not generalize to all RAG applications."
+      ]
     },
     {
       "url": "https://x.com/pashmerepat/status/1926717705660375463?s=46",
@@ -1559,11 +1571,11 @@
       "canonical_media_url": "https://www.youtube.com/watch?v=LwLxlEwrtRA",
       "required_content": "official captions or verified publisher transcript; video metadata alone is not evidence",
       "last_retry": {
-        "attempted_at": "2026-10-09T00:53:29.975440+00:00",
+        "attempted_at": "2026-10-09T04:32:29.256508+00:00",
         "tool": "Agent Reach v1.5.0",
-        "backend": "yt-dlp 2026.08.19",
         "status": "failed",
-        "reason": "Managed proxy CONNECT 403; no source content retrieved."
+        "backend": "yt-dlp + Jina Reader",
+        "reason": "yt-dlp CONNECT 403; Jina watch page lacks caption transcript or returns traffic challenge."
       }
     },
     {
@@ -1586,11 +1598,11 @@
       "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
       "attempted_at": "2026-10-08T14:44:32.483958+00:00",
       "last_retry": {
-        "attempted_at": "2026-10-09T00:53:29.975440+00:00",
+        "attempted_at": "2026-10-09T04:32:29.256508+00:00",
         "tool": "Agent Reach v1.5.0",
-        "backend": "Jina Reader",
         "status": "failed",
-        "reason": "Managed proxy CONNECT 403; no source content retrieved."
+        "backend": "Jina Reader",
+        "reason": "Jina returned deck title/interface only; no slide body."
       }
     },
     {
@@ -1622,11 +1634,11 @@
       "canonical_media_url": "https://www.youtube.com/watch?v=R_HnI9oTv3c",
       "required_content": "official captions or verified publisher transcript; video metadata alone is not evidence",
       "last_retry": {
-        "attempted_at": "2026-10-09T00:53:29.975440+00:00",
+        "attempted_at": "2026-10-09T04:32:29.256508+00:00",
         "tool": "Agent Reach v1.5.0",
-        "backend": "yt-dlp 2026.08.19",
         "status": "failed",
-        "reason": "Managed proxy CONNECT 403; no source content retrieved."
+        "backend": "yt-dlp + Jina Reader",
+        "reason": "yt-dlp CONNECT 403; Jina watch page lacks caption transcript or returns traffic challenge."
       }
     },
     {

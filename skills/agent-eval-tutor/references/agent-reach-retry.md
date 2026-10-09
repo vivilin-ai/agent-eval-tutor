@@ -31,3 +31,13 @@ Substack 和 Figma 使用 Agent Reach WebChannel / Jina Reader，同样在 CONNE
 - https://www.figma.com/deck/nwRlh5renu4s4olaCsf9lG/Failure-is-a-Funnel?node-id=2009-927&t=GJlTtxQ8bLJaQ92A-1
 - https://youtu.be/R_HnI9oTv3c?si=hRRhDiydHU5k6ikc
 - https://www.youtube.com/watch?v=R_HnI9oTv3c
+
+## 环境发布后的重试
+
+UTC：2026-10-09T04:32:29.256508+00:00。网络状态 enforced，r.jina.ai 已生效。
+
+- Substack：成功取得《Why I No Longer Recommend RAG for Autonomous Coding Agents》文章正文并收录，保留原 URL、读取路径、时间与哈希；图片未读取。观点限于自主编码 Agent，不能作为所有 RAG 系统的通用结论。
+- YouTube：11 个视频用 yt-dlp 再次尝试字幕，全部 CONNECT 403。Jina 可读 9 个视频页面，但 Transcript 区域没有字幕；另 2 个返回异常流量验证页。标题、简介、章节和推荐视频均未作为视频正文收录。
+- Figma：Jina 返回 Failure is a Funnel 标题、14/16 页码和界面提示，缺少幻灯片正文，仍未收录。
+
+本轮新增 1 篇，现有 110 篇可用、17 条失败、17 条排除。未绕过代理、验证码或登录限制。

@@ -16,7 +16,7 @@ Skill 会根据你的问题检索知识库，并引用支持建议的来源。�
 
 ## 知识库来自哪里？
 
-知识库目前收录 109 篇资料，主要来自两组来源：
+知识库目前收录 110 篇资料，主要来自两组来源：
 
 1. **[Hamel Husain 的 Evals FAQ](https://hamel.dev/blog/posts/evals-faq/)**，以及该页面链接的评测文章、论文和相关资料，涵盖错误分析、评测集、人工标注、LLM judge 等主题。
 2. **[阿里技术公众号的 Agent 精细化评测文章](https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247511370&idx=1&sn=c9f4ff1d054cb229ac2f8c1462fcb05e)**，涵盖任务与模块评测、质量与成本、多轮对话及工程实践。该来源通过用户提供的正文收录，未包含图片中的信息。

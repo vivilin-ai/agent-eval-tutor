@@ -103,6 +103,7 @@
 - [Play Favorites: A Statistical Method to Measure Self-Bias in LLM-as-a-Judge](https://arxiv.org/pdf/2508.06709) — [ef2edba24f7b8767.md](documents/ef2edba24f7b8767.md)
 - [LangSmith: Agent & LLM Observability Platform](https://www.langchain.com/langsmith) — [f6455bccb9e734f7.md](documents/f6455bccb9e734f7.md)
 - [Intro to GitHub for non-technical roles | Ben Balter](https://ben.balter.com/2023/03/02/github-for-non-technical-roles/) — [d0fbfb560761821d.md](documents/d0fbfb560761821d.md)
+- [Why I No Longer Recommend RAG for Autonomous Coding Agents](https://pashpashpash.substack.com/p/why-i-no-longer-recommend-rag-for) — [f371b181e8d073df.md](documents/f371b181e8d073df.md)
 - [pash on X: "Boris from the Claude Code team explains why they ditched RAG for agentic discovery.  
 
 "It outperformed everything. By a lot"" / X](https://x.com/pashmerepat/status/1926717705660375463?s=46) — [72b34c95b9bf96cc.md](documents/72b34c95b9bf96cc.md)
