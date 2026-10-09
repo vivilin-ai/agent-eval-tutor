@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-08T15:41:52.461607+00:00",
+  "updated_at": "2026-10-09T00:53:29.975524+00:00",
   "scope": "FAQ direct substantive links; relevant Hamel evaluation articles one further hop; external links not recursively expanded. Unavailable pages are not evidence.",
   "sources": [
     {
@@ -1128,7 +1128,14 @@
       "attempted_at": "2026-10-08T14:44:25.654888+00:00",
       "video_id": "aqKUwPKBkB0",
       "canonical_media_url": "https://www.youtube.com/watch?v=aqKUwPKBkB0",
-      "required_content": "official captions or verified publisher transcript; video metadata alone is not evidence"
+      "required_content": "official captions or verified publisher transcript; video metadata alone is not evidence",
+      "last_retry": {
+        "attempted_at": "2026-10-09T00:53:29.975440+00:00",
+        "tool": "Agent Reach v1.5.0",
+        "backend": "yt-dlp 2026.08.19",
+        "status": "failed",
+        "reason": "Managed proxy CONNECT 403; no source content retrieved."
+      }
     },
     {
       "url": "https://www.youtube.com/watch?v=aqKUwPKBkB0",
@@ -1139,7 +1146,14 @@
       "attempted_at": "2026-10-08T14:44:25.658336+00:00",
       "video_id": "aqKUwPKBkB0",
       "canonical_media_url": "https://www.youtube.com/watch?v=aqKUwPKBkB0",
-      "required_content": "official captions or verified publisher transcript; video metadata alone is not evidence"
+      "required_content": "official captions or verified publisher transcript; video metadata alone is not evidence",
+      "last_retry": {
+        "attempted_at": "2026-10-09T00:53:29.975440+00:00",
+        "tool": "Agent Reach v1.5.0",
+        "backend": "yt-dlp 2026.08.19",
+        "status": "failed",
+        "reason": "Managed proxy CONNECT 403; no source content retrieved."
+      }
     },
     {
       "url": "https://www.youtube.com/watch?v=qH1dZ8JLLdU",
@@ -1150,7 +1164,14 @@
       "attempted_at": "2026-10-08T14:44:25.661397+00:00",
       "video_id": "qH1dZ8JLLdU",
       "canonical_media_url": "https://www.youtube.com/watch?v=qH1dZ8JLLdU",
-      "required_content": "official captions or verified publisher transcript; video metadata alone is not evidence"
+      "required_content": "official captions or verified publisher transcript; video metadata alone is not evidence",
+      "last_retry": {
+        "attempted_at": "2026-10-09T00:53:29.975440+00:00",
+        "tool": "Agent Reach v1.5.0",
+        "backend": "yt-dlp 2026.08.19",
+        "status": "failed",
+        "reason": "Managed proxy CONNECT 403; no source content retrieved."
+      }
     },
     {
       "url": "https://ai-execs.com/2_intro.html",
@@ -1187,7 +1208,14 @@
       "attempted_at": "2026-10-08T14:44:26.520102+00:00",
       "video_id": "4dUFIRj-BWo",
       "canonical_media_url": "https://www.youtube.com/watch?v=4dUFIRj-BWo",
-      "required_content": "official captions or verified publisher transcript; video metadata alone is not evidence"
+      "required_content": "official captions or verified publisher transcript; video metadata alone is not evidence",
+      "last_retry": {
+        "attempted_at": "2026-10-09T00:53:29.975440+00:00",
+        "tool": "Agent Reach v1.5.0",
+        "backend": "yt-dlp 2026.08.19",
+        "status": "failed",
+        "reason": "Managed proxy CONNECT 403; no source content retrieved."
+      }
     },
     {
       "url": "https://www.youtube.com/watch?v=EEw2PpL-_NM",
@@ -1198,7 +1226,14 @@
       "attempted_at": "2026-10-08T14:44:26.523190+00:00",
       "video_id": "EEw2PpL-_NM",
       "canonical_media_url": "https://www.youtube.com/watch?v=EEw2PpL-_NM",
-      "required_content": "official captions or verified publisher transcript; video metadata alone is not evidence"
+      "required_content": "official captions or verified publisher transcript; video metadata alone is not evidence",
+      "last_retry": {
+        "attempted_at": "2026-10-09T00:53:29.975440+00:00",
+        "tool": "Agent Reach v1.5.0",
+        "backend": "yt-dlp 2026.08.19",
+        "status": "failed",
+        "reason": "Managed proxy CONNECT 403; no source content retrieved."
+      }
     },
     {
       "url": "https://delvetool.com/blog/theoreticalsaturation",
@@ -1221,7 +1256,14 @@
       "attempted_at": "2026-10-08T14:44:26.909820+00:00",
       "video_id": "e2i6JbU2R-s",
       "canonical_media_url": "https://www.youtube.com/watch?v=e2i6JbU2R-s",
-      "required_content": "official captions or verified publisher transcript; video metadata alone is not evidence"
+      "required_content": "official captions or verified publisher transcript; video metadata alone is not evidence",
+      "last_retry": {
+        "attempted_at": "2026-10-09T00:53:29.975440+00:00",
+        "tool": "Agent Reach v1.5.0",
+        "backend": "yt-dlp 2026.08.19",
+        "status": "failed",
+        "reason": "Managed proxy CONNECT 403; no source content retrieved."
+      }
     },
     {
       "url": "https://www.linkedin.com/in/pawel-huryn/",
@@ -1240,7 +1282,14 @@
       "attempted_at": "2026-10-08T14:44:28.268400+00:00",
       "video_id": "BsWxPI9UM4c",
       "canonical_media_url": "https://www.youtube.com/watch?v=BsWxPI9UM4c",
-      "required_content": "official captions or verified publisher transcript; video metadata alone is not evidence"
+      "required_content": "official captions or verified publisher transcript; video metadata alone is not evidence",
+      "last_retry": {
+        "attempted_at": "2026-10-09T00:53:29.975440+00:00",
+        "tool": "Agent Reach v1.5.0",
+        "backend": "yt-dlp 2026.08.19",
+        "status": "failed",
+        "reason": "Managed proxy CONNECT 403; no source content retrieved."
+      }
     },
     {
       "url": "https://youtu.be/tqUDjc1HzO4",
@@ -1251,7 +1300,14 @@
       "attempted_at": "2026-10-08T14:44:28.273340+00:00",
       "video_id": "tqUDjc1HzO4",
       "canonical_media_url": "https://www.youtube.com/watch?v=tqUDjc1HzO4",
-      "required_content": "official captions or verified publisher transcript; video metadata alone is not evidence"
+      "required_content": "official captions or verified publisher transcript; video metadata alone is not evidence",
+      "last_retry": {
+        "attempted_at": "2026-10-09T00:53:29.975440+00:00",
+        "tool": "Agent Reach v1.5.0",
+        "backend": "yt-dlp 2026.08.19",
+        "status": "failed",
+        "reason": "Managed proxy CONNECT 403; no source content retrieved."
+      }
     },
     {
       "url": "https://youtu.be/e2i6JbU2R-s?si=8p5XVxbBiioz69Xc",
@@ -1262,7 +1318,14 @@
       "attempted_at": "2026-10-08T14:44:28.277082+00:00",
       "video_id": "e2i6JbU2R-s",
       "canonical_media_url": "https://www.youtube.com/watch?v=e2i6JbU2R-s",
-      "required_content": "official captions or verified publisher transcript; video metadata alone is not evidence"
+      "required_content": "official captions or verified publisher transcript; video metadata alone is not evidence",
+      "last_retry": {
+        "attempted_at": "2026-10-09T00:53:29.975440+00:00",
+        "tool": "Agent Reach v1.5.0",
+        "backend": "yt-dlp 2026.08.19",
+        "status": "failed",
+        "reason": "Managed proxy CONNECT 403; no source content retrieved."
+      }
     },
     {
       "url": "https://www.youtube.com/watch?v=tqUDjc1HzO4",
@@ -1273,7 +1336,14 @@
       "attempted_at": "2026-10-08T14:44:28.280411+00:00",
       "video_id": "tqUDjc1HzO4",
       "canonical_media_url": "https://www.youtube.com/watch?v=tqUDjc1HzO4",
-      "required_content": "official captions or verified publisher transcript; video metadata alone is not evidence"
+      "required_content": "official captions or verified publisher transcript; video metadata alone is not evidence",
+      "last_retry": {
+        "attempted_at": "2026-10-09T00:53:29.975440+00:00",
+        "tool": "Agent Reach v1.5.0",
+        "backend": "yt-dlp 2026.08.19",
+        "status": "failed",
+        "reason": "Managed proxy CONNECT 403; no source content retrieved."
+      }
     },
     {
       "url": "https://arxiv.org/pdf/2507.19457",
@@ -1320,7 +1390,14 @@
       "attempted_at": "2026-10-08T14:44:29.571169+00:00",
       "video_id": "fA4pe9bE0LY",
       "canonical_media_url": "https://www.youtube.com/watch?v=fA4pe9bE0LY",
-      "required_content": "official captions or verified publisher transcript; video metadata alone is not evidence"
+      "required_content": "official captions or verified publisher transcript; video metadata alone is not evidence",
+      "last_retry": {
+        "attempted_at": "2026-10-09T00:53:29.975440+00:00",
+        "tool": "Agent Reach v1.5.0",
+        "backend": "yt-dlp 2026.08.19",
+        "status": "failed",
+        "reason": "Managed proxy CONNECT 403; no source content retrieved."
+      }
     },
     {
       "url": "https://www.youtube.com/watch?v=fA4pe9bE0LY",
@@ -1331,7 +1408,14 @@
       "attempted_at": "2026-10-08T14:44:29.574367+00:00",
       "video_id": "fA4pe9bE0LY",
       "canonical_media_url": "https://www.youtube.com/watch?v=fA4pe9bE0LY",
-      "required_content": "official captions or verified publisher transcript; video metadata alone is not evidence"
+      "required_content": "official captions or verified publisher transcript; video metadata alone is not evidence",
+      "last_retry": {
+        "attempted_at": "2026-10-09T00:53:29.975440+00:00",
+        "tool": "Agent Reach v1.5.0",
+        "backend": "yt-dlp 2026.08.19",
+        "status": "failed",
+        "reason": "Managed proxy CONNECT 403; no source content retrieved."
+      }
     },
     {
       "url": "https://www.langchain.com/langsmith",
@@ -1367,7 +1451,14 @@
       "attempted_at": "2026-10-08T14:44:30.467236+00:00",
       "video_id": "N-qAOv_PNPc",
       "canonical_media_url": "https://www.youtube.com/watch?v=N-qAOv_PNPc",
-      "required_content": "official captions or verified publisher transcript; video metadata alone is not evidence"
+      "required_content": "official captions or verified publisher transcript; video metadata alone is not evidence",
+      "last_retry": {
+        "attempted_at": "2026-10-09T00:53:29.975440+00:00",
+        "tool": "Agent Reach v1.5.0",
+        "backend": "yt-dlp 2026.08.19",
+        "status": "failed",
+        "reason": "Managed proxy CONNECT 403; no source content retrieved."
+      }
     },
     {
       "url": "https://pashpashpash.substack.com/p/why-i-no-longer-recommend-rag-for",
@@ -1375,7 +1466,14 @@
       "depth": 1,
       "status": "failed",
       "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
-      "attempted_at": "2026-10-08T14:44:30.470464+00:00"
+      "attempted_at": "2026-10-08T14:44:30.470464+00:00",
+      "last_retry": {
+        "attempted_at": "2026-10-09T00:53:29.975440+00:00",
+        "tool": "Agent Reach v1.5.0",
+        "backend": "Jina Reader",
+        "status": "failed",
+        "reason": "Managed proxy CONNECT 403; no source content retrieved."
+      }
     },
     {
       "url": "https://x.com/pashmerepat/status/1926717705660375463?s=46",
@@ -1459,7 +1557,14 @@
       "attempted_at": "2026-10-08T14:44:32.207345+00:00",
       "video_id": "LwLxlEwrtRA",
       "canonical_media_url": "https://www.youtube.com/watch?v=LwLxlEwrtRA",
-      "required_content": "official captions or verified publisher transcript; video metadata alone is not evidence"
+      "required_content": "official captions or verified publisher transcript; video metadata alone is not evidence",
+      "last_retry": {
+        "attempted_at": "2026-10-09T00:53:29.975440+00:00",
+        "tool": "Agent Reach v1.5.0",
+        "backend": "yt-dlp 2026.08.19",
+        "status": "failed",
+        "reason": "Managed proxy CONNECT 403; no source content retrieved."
+      }
     },
     {
       "url": "https://jxnl.co/writing/2025/05/19/there-are-only-6-rag-evals/",
@@ -1479,7 +1584,14 @@
       "depth": 1,
       "status": "failed",
       "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
-      "attempted_at": "2026-10-08T14:44:32.483958+00:00"
+      "attempted_at": "2026-10-08T14:44:32.483958+00:00",
+      "last_retry": {
+        "attempted_at": "2026-10-09T00:53:29.975440+00:00",
+        "tool": "Agent Reach v1.5.0",
+        "backend": "Jina Reader",
+        "status": "failed",
+        "reason": "Managed proxy CONNECT 403; no source content retrieved."
+      }
     },
     {
       "url": "https://youtu.be/R_HnI9oTv3c?si=hRRhDiydHU5k6ikc",
@@ -1490,7 +1602,14 @@
       "attempted_at": "2026-10-08T14:44:32.486894+00:00",
       "video_id": "R_HnI9oTv3c",
       "canonical_media_url": "https://www.youtube.com/watch?v=R_HnI9oTv3c",
-      "required_content": "official captions or verified publisher transcript; video metadata alone is not evidence"
+      "required_content": "official captions or verified publisher transcript; video metadata alone is not evidence",
+      "last_retry": {
+        "attempted_at": "2026-10-09T00:53:29.975440+00:00",
+        "tool": "Agent Reach v1.5.0",
+        "backend": "yt-dlp 2026.08.19",
+        "status": "failed",
+        "reason": "Managed proxy CONNECT 403; no source content retrieved."
+      }
     },
     {
       "url": "https://www.youtube.com/watch?v=R_HnI9oTv3c",
@@ -1501,7 +1620,14 @@
       "attempted_at": "2026-10-08T14:44:32.489636+00:00",
       "video_id": "R_HnI9oTv3c",
       "canonical_media_url": "https://www.youtube.com/watch?v=R_HnI9oTv3c",
-      "required_content": "official captions or verified publisher transcript; video metadata alone is not evidence"
+      "required_content": "official captions or verified publisher transcript; video metadata alone is not evidence",
+      "last_retry": {
+        "attempted_at": "2026-10-09T00:53:29.975440+00:00",
+        "tool": "Agent Reach v1.5.0",
+        "backend": "yt-dlp 2026.08.19",
+        "status": "failed",
+        "reason": "Managed proxy CONNECT 403; no source content retrieved."
+      }
     },
     {
       "url": "https://paulgraham.com/writes.html",
